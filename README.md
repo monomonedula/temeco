@@ -17,7 +17,7 @@ to translate a message with entities to HTML.
 `TelegramUTF16Text` class is also aware of the fact that Telegram calculates
  offsets for entities using UTF-16 encoding. 
  This comes into play when text being copied contains symbols which have different lengths
- in UTF-8 and UTF-16, like emoji.
+ in UTF-8 and UTF-16 code units, like emojis.
  
  ## Installation
  `pip install temeco`
