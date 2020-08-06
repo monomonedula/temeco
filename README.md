@@ -1,5 +1,8 @@
 #Telegram Message Copy (TeMeCo)
 
+[![Build Status](https://travis-ci.org/monomonedula/temeco.svg?branch=master)](https://travis-ci.org/monomonedula/temeco)
+[![codecov](https://codecov.io/gh/monomonedula/temeco/branch/master/graph/badge.svg)](https://codecov.io/gh/monomonedula/temeco)
+
 `temeco` is a simple Telegram message entities to html translator.
 Telegram Bot API makes it cumbersome fro bots to copy a user's message
 preserving its entities, since it is currently impossible for a bot to send
@@ -13,6 +16,9 @@ to translate a message with entities to HTML.
  offsets for entities using UTF-16 encoding. 
  This comes into play when text being copied contains symbols which have different lengths
  in UTF-8 and UTF-16, like emoji.
+ 
+ ## Installation
+ `pip install temeco`
  
  ## Usage:
  ```python
