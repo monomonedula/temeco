@@ -6,6 +6,7 @@ authors = ["monomonedula <valh@tuta.io>"]
 repository = "https://github.com/monomonedula/temeco"
 homepage = "https://github.com/monomonedula/temeco"
 keywords = ["telegram", "encoding", "telegram-bot-api", "utility"]
+readme = "README.md"
 license = "MIT"
 
 [tool.poetry.dependencies]
