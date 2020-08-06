@@ -1,7 +1,9 @@
 #Telegram Message Copy (TeMeCo)
 
+[![EO principles respected here](https://www.elegantobjects.org/badge.svg)](https://www.elegantobjects.org)
 [![Build Status](https://travis-ci.org/monomonedula/temeco.svg?branch=master)](https://travis-ci.org/monomonedula/temeco)
 [![codecov](https://codecov.io/gh/monomonedula/temeco/branch/master/graph/badge.svg)](https://codecov.io/gh/monomonedula/temeco)
+[![PyPI version](https://badge.fury.io/py/temeco.svg)](https://badge.fury.io/py/temeco)
 
 `temeco` is a simple Telegram message entities to html translator.
 Telegram Bot API makes it cumbersome fro bots to copy a user's message
