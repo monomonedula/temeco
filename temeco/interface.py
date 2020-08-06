@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Entity(ABC):
+class Entity(ABC):  # pragma: no cover
     @abstractmethod
     def offset(self) -> int:
         pass
@@ -15,7 +15,7 @@ class Entity(ABC):
         pass
 
 
-class EncodingAwareText(ABC):
+class EncodingAwareText(ABC):   # pragma: no cover
     @abstractmethod
     def text_of(self, start: int, stop: int = None) -> str:
         pass

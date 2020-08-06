@@ -50,10 +50,16 @@ def test_html_from_text():
                     length=7,
                     msg_text=TelegramUTF16Text(text),
                 ),
+                BasicEntity(
+                    type="pre",
+                    offset=161,
+                    length=7,
+                    msg_text=TelegramUTF16Text(text),
+                )
             ],
         ).as_str()
         == "dolorem <b>ipsum</b>, quia dolor sit, 🔥🚒 amet, consectetur, "
         '<code>adipisci</code> <a href="http://google.com/">velit</a>, sed quia 🙃 non '
         "numquam eius modi tempora incidunt, 🙊\n"
-        "ut labore et dolore magnam <i>aliquam</i> quaerat voluptatem."
+        "ut labore et dolore magnam <i>aliquam</i> <pre>quaerat</pre> voluptatem."
     )
