@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "temeco"
-version = "0.1.1"
+version = "0.1.2"
 description = "A small package handling telegram message copying preserving text entities"
 authors = ["monomonedula <valh@tuta.io>"]
+repository = "https://github.com/monomonedula/temeco"
+homepage = "https://github.com/monomonedula/temeco"
+keywords = ["telegram", "encoding", "telegram-bot-api", "utility"]
 license = "MIT"
 
 [tool.poetry.dependencies]
