@@ -30,6 +30,9 @@ text = (
     "dolorem ipsum, quia dolor sit, 🔥🚒 amet, consectetur, adipisci velit, sed quia 🙃 non numquam eius modi"
     " tempora incidunt, 🙊\nut labore et dolore magnam aliquam quaerat voluptatem."
 )
+# The offsets correspond to the utf-16 version of the original text,
+#   because telegram calculates the offsets in utf-16 code-units
+
 HtmlFromMsg(
     msg_txt=TelegramUTF16Text(text),
     entities=[
