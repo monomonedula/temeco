@@ -54,6 +54,10 @@ HtmlFromMsg(
         ),
     ],
 ).as_str()
+
+# returns
+# 'dolorem <b>ipsum</b>, quia dolor sit, 🔥🚒 amet, consectetur, <code>adipisci</code> <a href="http://google.com/">velit</a>, sed quia 🙃 non numquam eius modi tempora incidunt, 🙊
+#  ut labore et dolore magnam <i>aliquam</i> quaerat voluptatem.'
 ```
  
  ## Note:
