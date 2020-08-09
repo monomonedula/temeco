@@ -6,7 +6,7 @@
 [![PyPI version](https://badge.fury.io/py/temeco.svg)](https://badge.fury.io/py/temeco)
 
 `temeco` is a simple Telegram message entities to html translator.
-Telegram Bot API makes it cumbersome fro bots to copy a user's message
+Telegram Bot API makes it cumbersome for bots to copy a user's message
 preserving its entities, since it is currently impossible for a bot to send
 entities directly along with a message, 
 so it needs to translate a message with entities into HTML or Markdown.
